@@ -24,7 +24,10 @@ TFM
 │   │   ├── CancerMutationCensus_AllData_Tsv_v100_GRCh37.tar
 │   │   ├── CancerMutationCensus_AllData_v100_GRCh37.tsv
 │   │   ├── chek1_CancerMutationCensus_AllData_v100_GRCh37.tsv
-│   │   └── README_CancerMutationCensus_AllData_v100_GRCh37.txt
+│   │   ├── prueba
+│   │   │   └── chek1_variants_filtered.tsv
+│   │   ├── README_CancerMutationCensus_AllData_v100_GRCh37.txt
+│   │   └── README.md
 │   ├── Cosmic_MutantCensus_Tsv_v100_GRCh38.tar
 │   ├── Cosmic_MutantCensus_v100_GRCh38.tsv
 │   └── README_Cosmic_MutantCensus_v100_GRCh38.txt
@@ -43,16 +46,16 @@ TFM
 │   ├── simple_somatic_mutation.aggregated.vcf.gz
 │   └── vcf2tsv.py
 ├── README.md
-└── TCGA
-    ├── frequent-mutations.2024-05-26_BRD4.tsv
-    ├── frequent-mutations.2024-05-26_CHEK1.tsv
-    └── README.txt
+├── TCGA
+│   ├── frequent-mutations.2024-05-26_BRD4.tsv
+│   ├── frequent-mutations.2024-05-26_CHEK1.tsv
+│   └── README.txt
+└── tree_structure.txt
 
-
-## Requisitos
+# Requisitos
 
 - Python 3
-- Bibliotecas: pandas, numpy, matplotlib
+- Bibliotecas: pandas
 
 ## Instrucciones para la obtención de variantes
 
