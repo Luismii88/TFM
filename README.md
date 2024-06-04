@@ -12,7 +12,8 @@ Este repositorio contiene los scripts y datos para el análisis de mutaciones so
 
 ## Archivos y Directorios
 
-../TFM
+```plaintext
+TFM
 ├── COSMIC
 │   ├── actionability
 │   │   ├── Actionability_AllData_Tsv_v11_GRCh38.tar
@@ -51,6 +52,7 @@ Este repositorio contiene los scripts y datos para el análisis de mutaciones so
 │   ├── frequent-mutations.2024-05-26_CHEK1.tsv
 │   └── README.txt
 └── tree_structure.txt
+`
 
 # Requisitos
 
